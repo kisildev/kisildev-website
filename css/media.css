@@ -16,6 +16,7 @@ fullhd: from 1408px */
 
 @media screen and (max-width: 768px) {
     .resume-button {
+        display: none;
         padding: .5rem 1.125rem;
         font-size: 1rem;
     }
