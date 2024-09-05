@@ -1,0 +1,163 @@
+/* mobile: up to 768px
+tablet: from 769px
+desktop: from 1024px
+widescreen: from 1216px
+fullhd: from 1408px */
+
+@media screen and (max-width: 500px) {
+    .tech-stack-list {
+        flex-direction: column;
+    }
+
+    .tech-stack-item {
+        margin-bottom: .375rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .resume-button {
+        padding: .5rem 1.125rem;
+        font-size: 1rem;
+    }
+
+    .hero-column {
+        order: 2;
+    }
+
+    .hero .container {
+        flex-direction: column;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.5rem;
+    }
+
+    .planet-column {
+        text-align: center;
+        margin-bottom: 2.5rem;
+    }
+
+    .planet {
+        display: inline-block;
+        max-width: 350px;
+    }
+
+    .page-title {
+        margin-bottom: 1.875rem;
+    }
+
+    .about-me {
+        padding: 190px 0 170px 0;
+    }
+
+    .avatar {
+        max-width: 280px;
+        margin: 0 auto 3.125rem;
+    }
+
+    .social-media {
+        text-align: center;
+    }
+
+    .social-media-inner {
+        justify-content: center;
+    }
+
+    .tabs-nav {
+        margin-bottom: 1.875rem;
+    }
+
+    .job-resp-list {
+        padding: .625rem 1.25rem;
+    }
+    
+    .recent-tech {
+        margin: 1.875rem 0 5rem;
+    }
+
+    .contact {
+        min-height: 300px;
+    }
+
+    .project-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+}
+
+
+@media screen and (min-width: 769px) {
+    .resume-button {
+        padding: .625rem 1.25rem;
+        font-size: 1.125rem;
+    }
+
+    .hero-title {
+        font-size: 2.625rem;
+    }
+
+    .hero-subtitle {
+        font-size: 2.125rem;
+    }
+    .planet {
+        transform: translateY(-40px);
+    }
+
+    .page-title {
+        margin-bottom: 3.125rem;
+    }
+
+    .flex-wrap {
+        display: grid;
+        grid-template-columns: 4fr 2fr;
+        gap: 50px;
+    }
+
+    .avatar {
+        max-width: 210px;
+    }
+
+    .tabs {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        gap: 3.4375rem;
+    }
+
+    .project-list {
+        display: flex;
+        justify-content: center;
+    }
+
+    .project-folder {
+        margin-right: 2.125rem;
+    }
+
+    .contact {
+        min-height: 400px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero-title {
+        font-size: 3.25rem;
+    }
+
+    .hero-subtitle {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1216px) {
+    .hero-title {
+        font-size: 3.875rem;
+    }
+}
+
+@media screen and (min-width: 1408px) {
+    
+}
